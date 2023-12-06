@@ -7,8 +7,10 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <PropertySearch/>
-      <PropertyList/>
+      <PropertySearch />
+      <div className="mt-4"> {/* Adjust the margin top as needed */}
+        <PropertyList />
+      </div>
     </div>
   );
 };

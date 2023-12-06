@@ -2,7 +2,7 @@ import React from 'react';
 
 const PropertyCard = ({ cost, propertyName, address, imageUrl }) => {
   return (
-    <div className="max-w-sm mx-auto bg-gray-200 rounded overflow-hidden shadow-lg mb-8 mt-1">
+    <div className="max-w-sm mx-auto bg-gray-200 rounded overflow-hidden shadow-lg mb-8 mt-8">
       <div>
         <img className="w-full h-48 object-cover" src={imageUrl} alt="Property" />
       </div>
@@ -23,7 +23,7 @@ const PropertyCard = ({ cost, propertyName, address, imageUrl }) => {
 
 const PropertyList = () => {
   const properties = [
-  {
+    {
       id: 1,
       cost: 5000,
       propertyName: 'Beautiful Home',
@@ -47,7 +47,7 @@ const PropertyList = () => {
   ];
 
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center">
       <div className="grid grid-cols-3 gap-4">
         {properties.map((property) => (
           <PropertyCard key={property.id} {...property} />
