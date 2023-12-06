@@ -2,6 +2,8 @@
 
 Welcome to the Real Estate Listings project! This web application serves as a platform for listing available properties with various filtering options.
 
+[Front-End Deployment-](https://property-listingtask.netlify.app/)
+
 ![Task FrontEnd Screenshot](https://raw.githubusercontent.com/shivansh1507/Property-Task/master/task-assigned.jpg)
 ## Features
 
